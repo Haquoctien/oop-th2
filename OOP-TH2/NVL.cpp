@@ -36,3 +36,18 @@ string NVL::getId() const
 {
 	return id;
 }
+
+string NVL::getName() const
+{
+	return name;
+}
+
+string NVL::getType() const
+{
+	return type;
+}
+
+string NVL::getUnit() const
+{
+	return unit;
+}

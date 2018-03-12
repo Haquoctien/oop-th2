@@ -9,5 +9,8 @@ public:
 	void nhap();
 	void xuat() const;
 	string getId() const;
+	string getName() const;
+	string getType() const;
+	string getUnit() const;
 };
 
