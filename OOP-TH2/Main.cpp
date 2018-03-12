@@ -1,18 +1,13 @@
-#include "DanhSachNVL.h"
+#include "DetailsNVL.h"
 
 int main()
 {
 	DanhSachNVL ds;
 	ds.nhap();
-	cout << "Danh sach nguyen vat lieu da nhap: " << endl;
-	ds.xuat();
 	ds.sortItems();
-	cout << "Danh sach sau khi duoc sap xep: " << endl;
-	ds.xuat();
-	cout << "Tim nguyen vat lieu theo ma: " << endl;
-	string id;
-	getline(cin,id);
-	ds.xuatById(id);
+	DetailsNVL a;
+	a.nhap(ds);
+	a.xuat(ds);
 	system("pause");
 	return 0;
 }
