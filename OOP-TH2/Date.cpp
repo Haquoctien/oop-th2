@@ -28,7 +28,7 @@ void Date::nhap()
 		year = atoi(temp);
 	} while (!isDate(day, month, year));
 }
-void Date::xuat()
+void Date::xuat() const
 {
 	cout << day << "/" << month << "/" << year << endl;
 }

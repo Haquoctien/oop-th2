@@ -30,7 +30,7 @@ void DetailsNVL::nhap(const DanhSachNVL & ds)
 	cin.ignore();
 }
 
-void DetailsNVL::xuat(const DanhSachNVL & ds)
+void DetailsNVL::xuat(const DanhSachNVL & ds) const
 {
 	NVL obj = ds.getItemById(id);
 	cout << "Xuat NVL duoi dinh dang:\n\tstt, ma, ten, so luong, don vi tinh;" << endl;

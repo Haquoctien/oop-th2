@@ -8,6 +8,6 @@ public:
 	Date();
 	~Date();
 	void nhap();
-	void xuat();
+	void xuat() const;
 };
 

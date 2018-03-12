@@ -8,6 +8,6 @@ public:
 	DetailsNVL();
 	~DetailsNVL();
 	void nhap(const DanhSachNVL &ds);
-	void xuat(const DanhSachNVL &ds);
+	void xuat(const DanhSachNVL &ds) const;
 };
 
