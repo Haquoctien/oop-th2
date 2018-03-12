@@ -1,12 +1,9 @@
 #include "DetailsNVL.h"
 
 
-
 DetailsNVL::DetailsNVL()
 {
-
 }
-
 
 DetailsNVL::~DetailsNVL()
 {
@@ -35,4 +32,11 @@ void DetailsNVL::nhap(const DanhSachNVL & ds)
 
 void DetailsNVL::xuat(const DanhSachNVL & ds)
 {
+	NVL obj = ds.getItemById(id);
+	cout << "Xuat NVL duoi dinh dang:\n\tstt, ma, ten, so luong, don vi tinh;" << endl;
+	cout << "\t" << stt << ", ";
+	cout << id << ", ";
+	cout << obj.getName() << ", ";
+	cout << quantity << ", ";
+	cout << obj.getUnit() << ";" << endl;
 }
