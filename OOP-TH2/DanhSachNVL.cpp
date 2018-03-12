@@ -87,3 +87,8 @@ NVL DanhSachNVL::getItemById(string id) const
 {
 	return list[this->findById(id)];
 }
+
+int DanhSachNVL::getQuantity() const
+{
+	return quantity;
+}

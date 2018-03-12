@@ -16,5 +16,6 @@ public:
 	void xuatByPos(int) const;
 	void xuatById(string) const;
 	NVL getItemById(string) const;
+	int getQuantity() const;
 };
 
