@@ -15,6 +15,6 @@ public:
 	void sortItems();
 	void xuatByPos(int) const;
 	void xuatById(string) const;
-	NVL getItemById(int) const;
+	NVL getItemById(string) const;
 };
 

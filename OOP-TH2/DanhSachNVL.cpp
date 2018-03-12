@@ -83,7 +83,7 @@ void DanhSachNVL::xuatById(string id) const
 	list[this->findById(id)].xuat();
 }
 
-NVL DanhSachNVL::getItemById(int i) const
+NVL DanhSachNVL::getItemById(string id) const
 {
-	return list[i];
+	return list[this->findById(id)];
 }
